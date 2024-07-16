@@ -1,0 +1,9 @@
+CORE,CORE_ID,MODULE,ADDRESS,FUNCTION,LINE_NUMBER,MSG_TYPE,MSG_STRING
+Pmu,1,??,0x0000,??,??,??,[0000:0004] INVALID_LOG_ENTRY. Offset zero is invalid.
+Hs,2,??,0x0000,??,??,??,[0000:0004] INVALID_LOG_ENTRY. Offset zero is invalid.
+Hs,2,Platform.c,0x0001,__FUNCTION__,720,DBG,"[C5C5:54B78067] [COMMON:Platform:Init] Test BLOB with 3 Markers."
+Hs,2,Platform.c,0x0002,__FUNCTION__,721,DBG,"[C5C5:7FC7B632] [COMMON:Platform:Init] Test No Marker, only message."
+Hs,2,Platform.c,0x0003,__FUNCTION__,722,DBG,"[C5C5:0868C76F] [COMMON:Platform:Init] Test 3 Markers. CL_MARKER0: 0x%08x, CL_MARKER1: 0x%08x, CL_MARKER2: 0x%08x"
+Hs,2,Platform.c,0x0004,__FUNCTION__,723,DBG,"[C5C5:F086A58E] [COMMON:Platform:Init] Test 8 Markers CL_MARKER0:  CL_MARKER1:  CL_MARKER0:  CL_MARKER1:  CL_MARKER1:  CL_MARKER1:  CL_MARKER1:  CL_MARKER1: ."
+Ch0,3,??,0x0000,??,??,??,[0000:0004] INVALID_LOG_ENTRY. Offset zero is invalid.
+Ch1,4,??,0x0000,??,??,??,[0000:0004] INVALID_LOG_ENTRY. Offset zero is invalid.
